@@ -47,7 +47,7 @@ To add new routes to the application, update the `lib/routes/app_routes.dart` fi
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:package_name/presentation/home_screen/home_screen.dart';
+import 'package:vidviral_ai/presentation/splash_screen/splash_screen.dart';
 
 class AppRoutes {
   static const String initial = '/';
@@ -57,7 +57,7 @@ class AppRoutes {
     initial: (context) => const SplashScreen(),
     home: (context) => const HomeScreen(),
     // Add more routes as needed
-  }
+  };
 }
 ```
 
